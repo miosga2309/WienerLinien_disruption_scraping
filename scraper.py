@@ -1,8 +1,8 @@
-#import mysql.connector
 import requests
 from bs4 import BeautifulSoup
 import re
 import datetime
+import json
 import pandas
 
 def get_menu():
@@ -27,6 +27,4 @@ def get_menu():
                         re.sub(regex, '', t.get_text()).replace(" | ", ", "),
                         vegetarian, vegan)
             tbl.append(ret_tuple)
-    return(tbl)
-
-print(pandas.DataFrame(get_menu()))
+    return((tbl))

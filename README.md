@@ -1,4 +1,4 @@
-# Telegram-bot Mensa Scraper University of Konstanz 
+# Telegram-Bot Mensa Scraper University of Konstanz 
 ## Link: 
 [Seezeit Mensa Gießberg](https://www.seezeit.com/essen/speiseplaene/mensa-giessberg/)
 
